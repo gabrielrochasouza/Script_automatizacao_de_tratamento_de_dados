@@ -39,14 +39,3 @@ def main():
     
 if __name__ == "__main__":
     main()
-
-"""
-{
-id,
-track_name, 
-n_citacoes, 
-size_bytes, 
-price,
-prime_genre
-}
-"""

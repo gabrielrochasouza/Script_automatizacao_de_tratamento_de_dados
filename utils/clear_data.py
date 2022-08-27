@@ -14,13 +14,12 @@ def clear_data_func_list(data:list)->list:
     
     return result
 
-def clear_list_of_list_data(data:list):
+def clear_list_of_list_data(data:list)->list:
     return [
         data[1],
         data[2],
         data[3],
         data[5],
-        data[6],
         data[12],
     ]
 
