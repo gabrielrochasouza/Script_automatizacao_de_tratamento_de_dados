@@ -10,7 +10,7 @@ def create_json_file(result):
 
 def create_csv_file(list_to_write:list):
     with open('output/result.csv', 'w') as csvfile:
-        header = ['id','track_name', 'size_bytes', 'price', 'prime_genre']
+        header = ['id','track_name', 'n_citacoes', 'size_bytes', 'price', 'prime_genre']
         csv.writer(csvfile, delimiter=',').writerow(header)
         for element in list_to_write:
             csv.writer(csvfile, delimiter=',').writerow(clear_list_of_list_data(element) )
