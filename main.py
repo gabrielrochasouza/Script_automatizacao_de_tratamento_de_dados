@@ -31,13 +31,14 @@ def main():
     set_number_of_quotation_dict(list_dict_lines_books_music)
     set_number_of_quotation_list(list_list_lines_books_music)
     
+    print(dict_with_max_rating_count_news_genre)
+
     result = { 
         "top_news":[ clear_data_func_dict(dict_with_max_rating_count_news_genre)],
         "top_10":[*clear_data_func_list(list_dict_lines_books_music)]
     }
 
     create_csv_file([
-        # list_with_max_rating_count_news_genre,
         *list_list_lines_books_music
     ])
     create_json_file(result)

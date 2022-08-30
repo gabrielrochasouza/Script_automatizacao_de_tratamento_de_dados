@@ -1,5 +1,7 @@
 from pytwitter import Api
 
+# O número de citações no twitter é baseado nos últimos 7 dias.
+
 def twitter_reports(query):
     api = Api(
         bearer_token="AAAAAAAAAAAAAAAAAAAAACqefQEAAAAA9UA77HH4oId7122yloSgffO4A0Y%3D8ceaVvsLohtrPIZxk89oimi5XN6TEiJ6S1xJAuTgSkBhuu8SJj" 
